@@ -44,10 +44,10 @@ export default class MenuHospitales extends Component {
             </NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Link</a>
+            <NavLink className="nav-link" to="/create">New hospital</NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link disabled" aria-disabled="true">Disabled</a>
+            <NavLink className="nav-link" to="/hospitales">Hospitales</NavLink>
           </li>
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
